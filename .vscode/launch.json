@@ -1,0 +1,43 @@
+{
+    "configurations": [   
+        {
+          "name": "Simpsons-Android",
+          "type": "dart",
+          "request": "launch",
+          "deviceId": "R9DW6013WNP",
+          "program": "/Users/henrymichels/Software/flutter/samples/interviews/dexian/lib/main_simpsons.dart"  
+        },
+        {
+          "name": "Wire-Android",
+          "type": "dart",
+          "request": "launch",
+          "deviceId": "R9DW6013WNP",
+          "program": "/Users/henrymichels/Software/flutter/samples/interviews/dexian/lib/main_wire.dart"
+        },
+        {
+          "name": "Simpsons-iOS",
+          "request": "launch",
+          "type": "dart",
+          "deviceId": "00008101-000631C02689001E",
+          "program": "/Users/henrymichels/Software/flutter/samples/interviews/dexian/lib/main_simpsons.dart"
+        },
+        {
+          "name": "Wire-iOS",
+          "request": "launch",
+          "type": "dart",
+          "deviceId": "00008101-000631C02689001E",
+          "program": "/Users/henrymichels/Software/flutter/samples/interviews/dexian/lib/main_wire.dart"
+        },
+      ],
+    "compounds": [
+        {
+          "name": "Simpons & Wire Android",
+          "configurations": ["Simpsons-Android", "Wire-Android"]
+        },
+        {
+          "name": "Simpons & Wire iOS",
+          "configurations": ["Simpsons-iOS", "Wire-iOS"]
+        }
+      ]
+}
+
